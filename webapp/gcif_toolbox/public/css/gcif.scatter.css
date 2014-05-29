@@ -1,0 +1,53 @@
+/* BEGIN Scatter */
+
+.scatter.body .scatter.point {
+    stroke: black;
+    stroke-width: 0.5;
+    opacity : 0.45;
+}
+
+.scatter.body .background.scatter .scatter.point{
+    fill: lightgrey;
+}
+
+.scatter.body .scatter.axis {
+    font: 0.6em sans-serif;
+}
+
+/* axis labels */
+.scatter.body .scatter.axis > text{
+    font: 1.5em sans-serif;
+    font-weight: 800;
+}
+
+/* tick labels */
+.scatter.body .scatter.axis .tick > text{
+    font: 1.4em sans-serif;
+    font-weight: 500;
+}
+
+/* title */
+.scatter.body .title{
+    font: 1.5em;
+    font-weight: 800;
+}
+
+.scatter.body .scatter.axis path,
+.scatter.body .scatter.axis line {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+}
+
+
+/* tooltip  */
+.scatter.tooltip{
+    font-size: 1.0em;
+    font-weight: 800;
+    color: black;
+}
+
+
+
+
+

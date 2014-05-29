@@ -1,0 +1,72 @@
+/* chart */
+.parallel.body{}
+
+/* paths */
+.parallel.body .background path {
+    fill: none;
+    stroke: #ccc;
+    stroke-opacity: .4;
+    shape-rendering: crispEdges;
+}
+
+.parallel.body .foreground path {
+    fill: none;
+    stroke-opacity: .7;
+    stroke-width: 2;
+}
+
+    /*.parallel.body .foreground path.unhighlight {*/
+        /*stroke: #ccc;*/
+    /*}*/
+    .parallel.body .foreground path.highlight {
+        stroke-width: 8;
+    }
+
+
+/* points */
+.parallel.body circle.point {
+    stroke: black;
+    fill-opacity: .7;
+    stroke-width: 0.2;
+}
+
+    .parallel.body circle.point.highlight {
+        fill: orange;
+    }
+
+
+/* axes */
+.parallel.body .dimension .brush .extent {
+    fill-opacity: .3;
+    stroke: #fff;
+    shape-rendering: crispEdges;
+}
+
+.parallel.body .dimension .axis line, .parallel.body .dimension .axis path {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+}
+
+/* vertical axis label */
+.parallel.body .dimension .axis text {
+    text-shadow: 0 1px 0 #fff;
+    cursor: move;
+    font-size: 0.8em;
+}
+
+/* horizontal axis label */
+.parallel.body .dimension .axis > text {
+    text-shadow: 0 1px 0 #fff;
+    cursor: move;
+    font-size: 1.2em;
+}
+
+/* tooltip  */
+.parallel.tooltip{
+    font-size: 1.2em;
+    font-weight: 800;
+    color: #d2047d;
+}
+
+

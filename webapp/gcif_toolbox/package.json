@@ -1,0 +1,9 @@
+{ "name"    : "gcif",
+  "version" : "0.0.1",
+  "private" : true,
+  "dependencies" : {
+    "express"       : "3.2.x",
+    "mongodb"       : "1.3.x",
+    "JSV"           : "4.0.x"
+  }
+}

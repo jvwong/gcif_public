@@ -1,0 +1,14 @@
+[ 'Percentage of female school-aged population enrolled in schools',
+  'Percentage of students completing primary education',
+  'Percentage of students completing secondary education',
+  'Primary education student/teacher ratio',
+  'Average life expectancy',
+  'Number of in-patient hospital beds per 100 000 population',
+  'Number of physicians per 100 000 population',
+  'Under age five mortality per 1000 live births' ]
+............
+
+Finished in 0.077 seconds
+12 tests, 13 assertions, 0 failures, 0 skipped
+
+

@@ -1,0 +1,19 @@
+.gcif-correlate.chart{
+    margin-top: 2em;
+}
+
+.gcif-correlate.chart .reset{
+    padding-left: 1em;
+    font-size: 0.8em;
+    color: steelblue;
+    font-weight: bold;
+}
+
+/* legend */
+.gcif-correlate.legend{
+    font-size: 1em;
+    margin-top: 2em;
+    margin-left: 2em;
+}
+
+

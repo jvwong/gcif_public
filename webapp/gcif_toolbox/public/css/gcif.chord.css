@@ -1,0 +1,11 @@
+.gcif-similar.chart svg {
+  /*background-color: lightyellow;*/
+  font: 10px sans-serif;
+}
+
+
+.chord path {
+    fill-opacity: .67;
+    stroke: #000;
+    stroke-width: .5px;
+}

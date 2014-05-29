@@ -1,0 +1,55 @@
+
+.gcif-hbar.chart.axis path, .gcif-hbar.chart.axis line {
+    fill: none;
+    shape-rendering: crispedges;
+    stroke: black;
+}
+
+.gcif-hbar.chart svg {
+  font: 10px sans-serif;
+}
+
+.gcif-hbar.chart.bar rect {
+  fill: #8EB4E6;
+}
+
+.gcif-hbar.chart.bar:hover rect {
+  fill: rgba(76, 80, 169, 0.20);
+}
+
+.gcif-hbar.chart.axis {
+  shape-rendering: crispEdges;
+}
+
+.gcif-hbar.chart.axis path {
+  stroke: none;
+}
+
+.gcif-hbar.chart.x.axis line {
+  stroke: #fff;
+  stroke-opacity: .8;
+}
+
+.gcif-hbar.chart.y.axis path {
+  stroke: black;
+}
+
+.gcif-hbar.chart.label{
+    font-size: 0.85em;
+}
+
+.gcif-hbar.chart.value{
+    font-size: 0.8em;
+    fill: black;
+}
+
+div.gcif-hbar.table{
+    margin-top: 5em;
+}
+
+div.gcif-hbar.table tr:hover td{
+    background-color: rgba(76, 80, 169, 0.20);
+}
+
+
+

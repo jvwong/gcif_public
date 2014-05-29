@@ -1,0 +1,22 @@
+/*
+* Data source row
+*/
+
+.gcif-tally-sources .gcif-tally-source {
+    min-width: 10em;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.gcif-tally-sources .gcif-tally-source img{
+    display: inline-block;
+    max-height: 8em;
+    cursor: pointer;
+}
+
+.gcif-tally-sources .gcif-tally-source h4 {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+
